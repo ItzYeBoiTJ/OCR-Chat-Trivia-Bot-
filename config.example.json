@@ -1,0 +1,76 @@
+{
+  "window_title": "Set this to the exact game window title",
+  "bot_name": "stgzbot",
+  "call_name": "stgzbot",
+  "my_name": "Your in-game bot account name",
+  "owner_text": "Set your owner information",
+  "info_text": "Trivia bot for in-game chat",
+  "chat_box": [
+    0,
+    0,
+    459,
+    804
+  ],
+  "input_xy": [
+    210,
+    840
+  ],
+  "send_xy": [
+    420,
+    840
+  ],
+  "input_clicks": 1,
+  "send_mode": "tap",
+  "paste_mode": "paste",
+  "multiline": true,
+  "use_emoji": true,
+  "sep_dots": "· · · · · · · · · ·",
+  "sep_dashes": "- - - - - - - - - -",
+  "max_len": 400,
+  "extra_questions": 2,
+  "verify_questions": true,
+  "topic_time": 60,
+  "q_time": 35,
+  "chat_enabled": true,
+  "chat_cooldown": 8,
+  "chat_global_cooldown": 4,
+  "chat_max_per_5min": 12,
+  "chat_memory": 10,
+  "chat_max_chars": 140,
+  "cmd_cooldown": 6,
+  "injection_strikes": 3,
+  "injection_mute": 600,
+  "chat_reply_delay": [
+    2.0,
+    4.5
+  ],
+  "cmd_reply_delay": [
+    1.2,
+    2.8
+  ],
+  "ack_delay": [
+    0.6,
+    1.4
+  ],
+  "between_questions": [
+    2.0,
+    3.5
+  ],
+  "send_gap": [
+    1.4,
+    2.4
+  ],
+  "max_sends_per_min": 20,
+  "click_jitter": 3,
+  "poll": 0.7,
+  "ocr_scale": 1.0,
+  "countdown": 5,
+  "gemini_models": [
+    "gemini-3.5-flash-lite"
+  ],
+  "thinking_budget": null,
+  "safety_filter": true,
+  "ai_chat_timeout": 12,
+  "ai_trivia_budget": 30,
+  "ai_calls_per_min": 12
+}

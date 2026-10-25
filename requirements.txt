@@ -1,0 +1,8 @@
+opencv-python
+numpy
+requests
+rapidocr-onnxruntime
+mss
+pyautogui
+pyperclip
+pygetwindow

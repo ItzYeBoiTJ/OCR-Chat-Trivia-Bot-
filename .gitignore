@@ -1,0 +1,25 @@
+# Local configuration may contain account names, window titles, and coordinates.
+/config.json
+
+# API keys and other local environment secrets.
+.env
+.env.*
+!.env.example
+
+# Screenshots and OCR/debug output can expose private chat or desktop content.
+/screen.png
+/debug_crop.png
+/debug_*.png
+
+# Python-generated files and local environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local editor and OS metadata.
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
